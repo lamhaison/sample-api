@@ -1,0 +1,27 @@
+{
+  "name": "sample-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/forever index.js",
+    "dev": "NODE_ENV=development ./node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatwing/sample-api.git"
+  },
+  "author": "Tan Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chatwing/sample-api/issues"
+  },
+  "homepage": "https://github.com/chatwing/sample-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "nodemon": "^1.9.2",
+    "redis": "^2.5.3"
+  }
+}
